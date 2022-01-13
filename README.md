@@ -1,4 +1,4 @@
-	Demonstration test project
+Demonstration test project
 
     1. Exploratory testing and bug-reporting:
         a. Test-data: [link]
