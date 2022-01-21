@@ -13,7 +13,7 @@ describe('Form', () => {
     cy.get('.pushbutton-wide').click()
     cy.get('#contact-form-2599 > h3').should('contain','Message Sent (go back)')
 });
-it('Send form with not valid password', () => {
+it('Send form with not valid email', () => {
     cy.visit(BaseURL);
     cy.get('#g2599-name').type('User')
     cy.get('#g2599-email').type('hgdhkjfhl@vhkb')
